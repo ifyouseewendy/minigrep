@@ -1,7 +1,11 @@
+//! # Minigrep
+//!
+//! `minigrep` is a minimal grep tool for demo use.
 use std::fs;
 use std::error::Error;
 use std::env;
 
+/// Configuration struct
 pub struct Config {
     pub query: String,
     pub filename: String,
